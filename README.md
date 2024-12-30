@@ -1,1 +1,0 @@
-# Royal_Auto_Filter_Bot
