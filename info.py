@@ -29,7 +29,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "dinoflix44")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002299962484')'))  
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002299962484'))  
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002372139008'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002345255703'))
