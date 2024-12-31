@@ -12,43 +12,43 @@ def is_enabled(value, default):
         return default
 #---------------------------------------------------------------
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '27111655'))
+API_HASH = environ.get('API_HASH', '02b37606c933fd06c0407dcd9f99a615')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7794485133:AAHgYXOQT4PgNUHlJpuKTaTX91Ls0iu4Tg0')
 
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6053231890 6824593635').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/AnimeHolic_Nerd") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002124436497'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/moviesnationhub')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002054607099').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7252639965 1577166444 1505847875').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/I_Want_To_Be_Forever_Youngs") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002293028039'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+rL4ESddyLwZkYzll')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002443467821 -1002462248216').split()]
 #---------------------------------------------------------------
 
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Ragnar")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://dinoflix44:Nirav1234@cluster0.2isxw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "dinoflix44")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002372139008'))  
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002372139008'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002299962484'))  
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002482632859'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002372139008'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002075335780')
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002345255703'))
+auth_channel = environ.get('AUTH_CHANNEL', '-1002258420114')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002278938867')
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002075335780'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/RagnarsChat') #Support group link ( make sure bot is admin )
+request_channel = environ.get('REQUEST_CHANNEL', '-1002367728669')
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002290622975'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+JQIM9qsIqQdhNDRl') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Bypass_Shortlink/2")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/+i83vXOkM08YwOTA9")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "406296a4221c707f4ac2924482d256d040b440fd")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'seturl.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "406296a4221c707f4ac2924482d256d040b440fd")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'seturl.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "406296a4221c707f4ac2924482d256d040b440fd")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'seturl.in')
+SHORTENER_API = environ.get("SHORTENER_API", "bee8c5a36ee6fd892040733b34cc088a3fbcd5f")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'instantearn.in')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "bee8c5a36ee6fd892040733b34cc088a3fbcd5f")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'instantearn.in')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "bee8c5a36ee6fd892040733b34cc088a3fbcd5f")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'instantearn.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "43200"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "43200"))
 #---------------------------------------------------------------
@@ -111,7 +111,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "https://ragnar-44e3cc07fe60.herokuapp.com/")
+URL = environ.get("FQDN", "")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
