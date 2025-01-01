@@ -2,7 +2,7 @@ from info import DATABASE_URI
 import motor.motor_asyncio
 import uuid  # for generating unique IDs
 
-class TopDB:
+class JsTopDB:
     def __init__(self, db_uri):
         self.client = motor.motor_asyncio.AsyncIOMotorClient(db_uri)
         self.db = self.client["movie_series_db"]
